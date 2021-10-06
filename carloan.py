@@ -12,7 +12,7 @@ while True:
 
     totalAmount = st.write("Please enter the total amount.")
     try:
-        totalAmount = int(totalAmount)
+        totalAmount = write(totalAmount)
         break
     
     except ValueError:
