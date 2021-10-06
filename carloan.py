@@ -10,6 +10,10 @@ This is a web app demo using python libraries such as Streamlit, Sklearn etc
 
 while True:
 
+     def __init__(self, "Please enter the total amount."):
+        self.totalAmount = totalAmount
+    
+    
     totalAmount = st.write("Please enter the total amount.")
     try:
         totalAmount = int(totalAmount)
