@@ -8,19 +8,19 @@ while True:
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        print("Please enter a number.")
 
 # Part2 : Store the downPayment
 
 while True:
 
-    downPayment = input("Please enter the down payment.\n")
+    downPayment = input("Please enter the down payment.")
     try:
         downPayment = int(downPayment)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        print("Please enter a number.")
     
 
 
@@ -28,24 +28,24 @@ while True:
 
 while True:
 
-    interestRate = input("Please enter the interest rate.\n")
+    interestRate = input("Please enter the interest rate.")
     try:
         interestRate = float(interestRate)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        print("Please enter a number.")
       
     
 # Part4 : Store the loanPeriod
 
 while True:
 
-    loanPeriod = input("Please enter the loan period.\n")
+    loanPeriod = input("Please enter the loan period.")
     try:
         loanPeriod = float(loanPeriod)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        print("Please enter a number.")
         
